@@ -13,9 +13,9 @@ public class Sortbyroll implements Comparator<Student>
 {
     // Used For sorting in ascending order of
     // roll number
-    @Override
+    @Override //penghubung
     public int compare(Student a, Student b){
         
-            return a.rollno - b.rollno;
+            return a.rollno - b.rollno; //perbandingan angka untuk pengurutan
     }
 }
